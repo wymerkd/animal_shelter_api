@@ -26,6 +26,9 @@ describe "post a animal route", :type => :request do
     expect(JSON.parse(response.body)['weight']).to eq('10 lbs')
   end
 
+  it 'returns the animal name' do
+    expect(JSON.parse(response.body)['description']).to eq('likes to dig holes in the yard and chew on the couch')
+  end
 
   it 'returns a created status' do
     expect(response).to have_http_status(:created)
