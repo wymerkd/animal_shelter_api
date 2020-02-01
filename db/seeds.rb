@@ -10,7 +10,7 @@ class Seed
       animal = Animal.create!(
         name: Faker::Creature::Dog.name,
         breed: Faker::Creature::Dog.breed,
-        color: Faker::Book.author,
+        color: Faker::Color.color_name,
         age: Faker::Creature::Dog.age,
         weight: Faker::Measurement.weight,
         description: Faker::Restaurant.type
