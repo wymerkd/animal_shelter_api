@@ -18,7 +18,9 @@ describe "post a animal route", :type => :request do
     expect(JSON.parse(response.body)['color']).to eq('black')
   end
 
-
+  it 'returns the animal age' do
+    expect(JSON.parse(response.body)['age']).to eq('2')
+  end
 
   it 'returns a created status' do
     expect(response).to have_http_status(:created)
