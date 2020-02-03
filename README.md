@@ -24,7 +24,7 @@ _This application allows a user to create, update, read, and delete animals from
 ## Interacting with Postman
 * _Enter the request URL: localhost:3000/animals_
 * _Select if you would like to Get, Post, Put, or Delete an animal_
-* _Possible keys and values below:_
+* _Example keys and values below:_
 
 |  Key | Value |
 |---|---|
