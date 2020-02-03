@@ -6,11 +6,11 @@
 
 ## Description
 
-_This application allows a user to create, update, read, and delete animals from an animal shelter database. A user is welcome to interact with this API by using a service like Postman, where they can make get, post, delete, and put requests. _
+_This application allows a user to create, update, read, and delete animals from an animal shelter database. A user is welcome to interact with this API by using a service like Postman, where they can make get, post, delete, and put requests._
 
 ## Specifications
 
-* _Holds all of a users travel blog posts. Users are able to Create, Read, Edit, and Delete blog posts through interacting with our frontend application_
+* _Users are able to Create, Read, Update, and Delete animal posts through interacting with the API through Postman_
 
 
 ## Setup/Installation Requirements
@@ -37,18 +37,11 @@ _Please contact Kyle Wymer, at wymerkd@gmail.com if support is needed_
 * _Rails_
 * _Gemfile_
 * _SQL_
-* _Bcrypt (authentication)_
 
-
-## Helpful Resources
-<!-- Active::Resource  -->
-* _https://api.rubyonrails.org/v3.1/classes/ActiveResource/Base.html_
-<!-- JWT Authentication -->
-* _https://www.pluralsight.com/guides/token-based-authentication-with-ruby-on-rails-5-api_
 
 ### License
 
-*Copyright <2020> <Kyle Wymer and Marcus Jensen, Epicodus>
+*Copyright <2020> <Kyle Wymer, Epicodus>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
