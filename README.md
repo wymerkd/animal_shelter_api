@@ -18,10 +18,21 @@ _This application allows a user to create, update, read, and delete animals from
 * _Navigate to the root directory of the cloned repository via terminal_
 * _In the terminal, run $ bundle install_
 * _To recreate the database, run $ rake db:create, followed by rake db:migrate_
-* _run: rails s -p 3000 in the terminal_
+* _run $ rails s -p 3000 in the terminal_
 * _interact with the application via Postman_
 
-
+## Interacting with Postman
+* _Enter the request URL: localhost:3000/animals_
+* _Select if you would like to Get, Post, Put, or Delete an animal_
+* _Possible keys and values below:_
+|  Key | Value  |
+|---|---|
+| name | "Fido" |
+| breed | "Australian Shepherd |
+| color | "brown" |
+| age | 2 |
+| weight | "10 lbs"|
+| description| "Loves to swim and play fetch"|
 
 ## Known Bugs
 
