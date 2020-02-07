@@ -37,9 +37,10 @@ _This application allows a user to create, update, read, and delete animals from
 ## Interacting with Postman
 * _Select the HTTP Method to GET, POST, PUT, or DELETE an animal_
 * _Enter the corresponding URI Pattern from the endpoints above_
-* _To POST or PUT (update) an animal, you must manually enter parameters (see example key and values below)_
+* _To POST or PUT (update) an animal, you must manually enter parameters (see example key and values below in Parameters section)_
 * _Send the request_
-* _Example parameters below:_
+
+##Parameters
 
 |  Key | Value |
 |---|---|
