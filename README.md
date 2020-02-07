@@ -21,19 +21,35 @@ _This application allows a user to create, update, read, and delete animals from
 * _run $ rails s -p 3000 in the terminal_
 * _interact with the application via Postman_
 
+
+## Endpoints
+
+|  HTTP Methods |  URI Pattern | Action | Corresponding Controller#Action |
+|---|---|---|---|
+| GET | http://localhost:3000/animals/ | Returns all animals | animals#index |
+| GET | http://localhost:3000/animals/:id | Returns an animal by specific ID | animals#show |
+| POST | http://localhost:3000/animals/ | Creates a new animal | animals#create|
+| PUT | http://localhost:3000/animals/:id | Updates an animal's values | animals#update |
+| DELETE | http://localhost:3000/animals/:id | Deletes an animal | animals#destroy |
+
+
 ## Interacting with Postman
-* _Enter the request URL: localhost:3000/animals_
-* _Select if you would like to Get, Post, Put, or Delete an animal_
-* _Example keys and values below:_
+* _Select the HTTP Method to GET, POST, PUT, or DELETE an animal_
+* _Enter the corresponding URI Pattern from the endpoints above_
+* _To POST or PUT (update) an animal, you must manually enter parameters (see example key and values below)_
+* _Send the request_
+* _Example parameters below:_
 
 |  Key | Value |
 |---|---|
+| id | 1 |
 | name | "Fido" |
 | breed | "Australian Shepherd |
 | color | "brown" |
 | age | 2 |
 | weight | "10 lbs"|
 | description| "Loves to swim and play fetch"|
+
 
 ## Known Bugs
 
