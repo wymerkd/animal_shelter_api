@@ -18,6 +18,7 @@ _This application allows a user to create, update, read, and delete animals from
 * _Navigate to the root directory of the cloned repository via terminal_
 * _In the terminal, run $ bundle install_
 * _To recreate the database, run $ rake db:create, followed by rake db:migrate_
+* _To seed the database with animals, run $ rake db:seed_
 * _run $ rails s -p 3000 in the terminal_
 * _interact with the application via Postman_
 
